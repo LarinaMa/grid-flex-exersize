@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+body > * {
+  border: solid blue 3px;
+}
+body > * > * {
+  border: solid red 3px;
+}
+body > * > * > * {
+  border: solid greenyellow 3px;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section p {
+  width: 500px;
+}

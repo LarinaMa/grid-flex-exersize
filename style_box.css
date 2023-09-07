@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+body > * {
+  border: solid blue 3px;
+}
+body > * > * {
+  border: solid red 3px;
+}
+body > * > * > * {
+  border: solid greenyellow 3px;
+}
+section {
+  display: block;
+  padding-block: 200px;
+  text-align: center;
+}
+section p {
+  max-width: 500px;
+  margin-inline: auto;
+}
